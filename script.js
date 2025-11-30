@@ -1,0 +1,10 @@
+function minimize() {
+
+
+}
+
+function exit() {
+
+
+    
+}

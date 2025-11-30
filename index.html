@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Miu</title>
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="title-left">
+        <img class="app-logo" src="assets/icon.png" alt="Logo">
+        <span class="app-title">Pomodoro with Miu</span>
+      </div>
+      <div class="window-buttons">
+        <img id="min-btn" src="assets/min.png" alt="Minimize">
+        <img id="exit-btn" src="assets/exit.png" alt="Close">
+      </div>
+    </div>
+
+    <div class="main-body">
+      <div class="image-body">
+        <img id="cat" src="" alt="Animated Cat">
+      </div>
+      <div class="content-container">
+          <div class="home-controls">
+            <button class="image-button">Work</button>
+            <button class="image-button">Break</button>
+          </div>
+          <p id="encouragement-text">You can do it!</p>
+          <h1 class="timer">25:00</h1>
+          <button class="image-button" id="start-btn">Start</button>
+      </div>
+    </div>
+    <audio id="meow-sound" src="assets/meow.mp3" preload="auto"></audio>
+
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

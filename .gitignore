@@ -1,0 +1,60 @@
+# NODE MODULES
+node_modules/
+
+
+# ELECTRON FORGE / ELECTRON BUILDER OUTPUT
+out/
+make/
+dist/
+build/
+temp/
+release/
+
+# Ignore packaged installers
+*.exe
+*.msi
+*.zip
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# Electron Forge cache
+.cache/
+.electron-forge/
+
+# SECURITY / SECRETS
+.env
+
+# Certificates, signing keys, and sensitive artifacts
+dev_cert/
+*.pfx
+*.p12
+*.key
+*.csr
+*.crt
+
+# LOG FILES
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+SquirrelSetup.log
+
+# OS-SPECIFIC JUNK
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# EDITOR / IDE SETTINGS
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Mac code signing artifacts (optional)
+*.entitlements
+
+# Git itself (DO NOT IGNORE THIS in real projects, only for special cases)
+# .git/

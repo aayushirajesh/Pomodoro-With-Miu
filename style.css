@@ -1,0 +1,132 @@
+body {
+    background-color: #ebe9af;
+    font-family: 'Comic Sans MS', cursive;
+}
+.title-bar {
+    height: 45px;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    -webkit-app-region: drag;
+}
+
+.title-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-logo {
+    padding-left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.app-title {
+    font-size: 1.1em;
+    white-space: nowrap;
+}
+
+.main-body {
+    height: 480px;
+    width: 460px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #ffffff;
+    padding-top: 23px;
+}
+
+#cat {
+    height: 179px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-self: flex-start;
+    padding-bottom: 20px;
+    overflow: hidden;
+    image-rendering: pixelated;
+    object-fit: contain;
+}
+
+
+.window-buttons img {
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-top: 5%;
+    -webkit-app-region: no-drag;
+}
+
+.window-buttons img:hover {
+    opacity: 0.7;
+}
+
+.image-button {
+  background-color: #ebe9af;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin: 10px;
+  align-self: center;
+  font-size: 1.1em;
+  color: #79774d;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.image-button:hover {
+  background-color: #c0bd82;          /* darker yellow on hover */
+  transform: scale(1.05);
+}
+
+.image-button:active {
+  transform: scale(0.95);
+}
+
+#start-btn {
+  background-color: #ebe9af;
+  margin-top: 15px;
+}
+
+#start-btn:hover {
+  background-color: #c0bd82;          /* darker yellow on hover */
+  transform: scale(1.05);
+}
+
+#start-btn:active {
+  transform: scale(0.95);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.content-container > * {
+  margin: 0;         /* reset all margin */
+}
+
+
+.home-controls {
+  display: flex;
+}
+
+.timer {
+  font-size: 4em;
+  display: flex;
+  color: #333;
+  font-family: 'Comic Sans MS', cursive;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-align: center;
+  align-self: center;
+}
