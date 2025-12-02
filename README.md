@@ -85,5 +85,6 @@ npm start
 npm run make
 
 ⚠️ Installer Warning  
-Since this is a portfolio project and does not use a paid code-signing certificate, Windows may show a “Windows protected your PC” warning.  
+Since this is a portfolio project and does not use a paid code-signing certificate,
+Windows may show a “Windows protected your PC” warning.  
 Click “More info → Run anyway” to launch the app.
