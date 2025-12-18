@@ -1,7 +1,7 @@
 # Pomodoro With Miu
-A cute and minimal Pomodoro timer built with Electron, designed to help you stay focused with a calm, cozy aesthetic.
+A cute and minimal Pomodoro timer built with Electron, designed to help you stay focused with a calm, cozy aesthetic. <br/>
+You can try the app directly from my releases.
 
----
 
 ## Features
 -  **25–5 Pomodoro cycle** (focus + break)
@@ -10,7 +10,7 @@ A cute and minimal Pomodoro timer built with Electron, designed to help you stay
 -  **Distraction-free interface**
 -  **Lightweight desktop application** built using Electron  
 -  **Cross-platform codebase**, currently packaged for Windows
----
+
 
 ## 📸 Screenshots
 <p align="center">
@@ -19,12 +19,11 @@ A cute and minimal Pomodoro timer built with Electron, designed to help you stay
   <img src="https://github.com/user-attachments/assets/dc91402c-ca54-482a-bb01-cfe11235a1e9" width="32%" style="border-radius:10px;" />
 </p>
 
----
+
 
 ## Figma Design
 You can view my original UI design here: [**Figma Project**](https://www.figma.com/@aayushirajesh)
 
----
 
 ## Tech Stack
 - **Electron** (for native desktop build)
@@ -33,7 +32,6 @@ You can view my original UI design here: [**Figma Project**](https://www.figma.c
 - **Node.js**
 - **Squirrel.Windows** for installer packaging
 
----
 
 ## Why I Built This
 I wanted to create a small, cozy-looking productivity app with:
@@ -42,7 +40,6 @@ I wanted to create a small, cozy-looking productivity app with:
 - practical Pomodoro timing  
 - and a beginner-friendly desktop build flow using Electron  
 
----
 
 ## Installation
 
@@ -65,7 +62,6 @@ Click:
 Everything is safe — this message appears only because the app is unsigned.
 
 
----
 
 ## Development Setup
 
